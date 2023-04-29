@@ -113,3 +113,14 @@ a:hover::before {
     font-size: smaller;
     font-style: italic;
 }
+
+.img {
+    height: 400px;
+    width: 35%;
+    margin: 3% 6%;
+    border-style: solid;
+    border-color: #270434;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-width: 3px;
+}

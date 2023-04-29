@@ -35,7 +35,11 @@ h3{
     margin: 8% 37.5%;
     width: 300px;
     border-color: #fff;
-    border-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-radius: 30%;
 }
 
 .nav {

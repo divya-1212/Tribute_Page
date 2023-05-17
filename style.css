@@ -3,6 +3,9 @@ body {
     font-family: "Castoro Titling", sans-serif;
     color: black;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 h3{
     text-transform: uppercase;
@@ -125,10 +128,32 @@ a:hover::before {
 .img {
     height: 400px;
     width: 35%;
-    margin: 3% 6%;
-    border-style: solid;
-    border-color: #270434;
-    border-top-right-radius: 15%;
-    border-bottom-left-radius: 15%;
-    border-width: 3px;
+    margin: 3% 6%; 
+    box-shadow:8px 8px 10px grey;
+    border-radius: 10px;
+    border-top-left-radius: 30px;
+    transition: 1s;
+}
+.img:hover{transform: scale(1.1);}
+#timeline_menu{
+    display: flex;flex-direction: row;width: 100%;
+    justify-content: space-around;background-color: bisque;
+    box-sizing: border-box;   
+}
+.time{
+    padding-left: 30px;padding-right: 30px;
+    height: 40px;line-height: 40px;transition: 1s;position: static;
+}
+.t{display:none;  
+}
+.time:hover .t{
+    width: 100%;display:flex;flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;border: none;
+}
+.time:hover{text-align:center;}
+.texttime{background-color: bisque;height: 100vw;top: 0%;}
+#work_box{
+    background-color:bisque;
+    height: 72vh;width:98.8vw;top: 0%;
 }

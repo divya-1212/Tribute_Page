@@ -13,11 +13,83 @@
       href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap"
       rel="stylesheet"
     />
+    <style>ul{list-style: none;padding:0px 30px 0px 30px;text-align: center;
+      margin: 0%;margin-bottom:2px;background-color:rgb(231, 188, 137) ;;}
+      li{border-bottom: 2px solid rgb(192, 135, 66);padding: top 2px;padding-bottom: 2px ;
+      }
+      p{text-align: center;}
+      </style>
+      <script>
+        function work(n){
+
+          if (n==1){
+          document.getElementById("t1").style.display='block';}
+        if (n==2){
+          document.getElementById("t2").style.display='block';}
+        if (n==3){
+          document.getElementById("t3").style.display='block';}
+        if (n==4){
+          document.getElementById("t4").style.display='block';}
+        if (n==5){
+          document.getElementById("t5").style.display='block';}
+        if (n==6){
+          document.getElementById("t6").style.display='block';}
+        if (n==7){
+          document.getElementById("t7").style.display='block';}
+        if (n==8){
+          document.getElementById("t8").style.display='block';}
+        if (n==9){
+          document.getElementById("t9").style.display='block';}
+        if (n==10){
+          document.getElementById("t10").style.display='block';}
+        if (n==11){
+          document.getElementById("t11").style.display='block';}
+        if (n==12){
+          document.getElementById("t12").style.display='block';}
+        if (n==13){
+          document.getElementById("t13").style.display='block';}
+        if (n==14){
+          document.getElementById("t14").style.display='block';}
+        if (n==15){
+          document.getElementById("t15").style.display='block';}
+      }
+      function hide(n){
+          if (n==1){
+          document.getElementById("t1").style.display='none';}
+        if (n==2){
+          document.getElementById("t2").style.display='none';}
+        if (n==3){
+          document.getElementById("t3").style.display='none';}
+        if (n==4){
+          document.getElementById("t4").style.display='none';}
+        if (n==5){
+          document.getElementById("t5").style.display='none';}
+        if (n==6){
+          document.getElementById("t6").style.display='none';}
+        if (n==7){
+          document.getElementById("t7").style.display='none';}
+        if (n==8){
+          document.getElementById("t8").style.display='none';}
+        if (n==9){
+          document.getElementById("t9").style.display='none';}
+        if (n==10){
+          document.getElementById("t10").style.display='none';}
+        if (n==11){
+          document.getElementById("t11").style.display='none';}
+        if (n==12){
+          document.getElementById("t12").style.display='none';}
+        if (n==13){
+          document.getElementById("t13").style.display='none';}
+        if (n==14){
+          document.getElementById("t14").style.display='none';}
+        if (n==15){
+          document.getElementById("t15").style.display='none';}
+      }
+      </script>
   </head>
   <body>
-    <article>
-      <header class="head">Arthur Conan Doyle</header>
-
+   
+      <header class="head" >Arthur Conan Doyle</header>
       <div>
         <img class="img_back" src="img.jpg" alt="" />
         <img class="img_front" src="download.jpeg" alt="" />
@@ -26,20 +98,128 @@
       <nav class="nav">
         <a class="link" href="index.html">Intro</a>
         <a class="link" href="life.html">Life</a>
-        <a style="color: #37306B;" class="link" href="works.html">Works</a>
+        <a style="color: #37306B;" class="link" href="#timeline_menu">Works</a>
         <a class="link" href="photos.html">Photos</a>
       </nav>
 
-      <section class="text">
+      <!-- <section class="text" id="section3">
         <h3>Sherlock Holmes</h3>
         <p>Doyle struggled to find a publisher. His first work featuring Sherlock Holmes and Dr. Watson, A Study in Scarlet, was written in three weeks when he was 27 and was accepted for publication by Ward Lock & Co on 20 November 1886, which gave Doyle £25 (equivalent to £2,900 in 2019) in exchange for all rights to the story. The piece appeared a year later in the Beeton's Christmas Annual and received good reviews in The Scotsman and the Glasgow Herald.</p>
         <h3>Other works</h3>
         <p>Doyle's first novels were <strong>The Mystery of Cloomber</strong>, not published until 1888, and the unfinished <strong> Narrative of John Smith</strong>, published only posthumously, in 2011.[43] He amassed a portfolio of short stories, including <strong> "The Captain of the Pole-Star"</strong> and <strong>"J. Habakuk Jephson's Statement"</strong>, both inspired by Doyle's time at sea. The latter popularised the mystery of the Mary Celeste</p>
-      </section>
-
-      <footer class="foot">
-        Copyright &#169 2030. All rights reserved.
-      </footer>
-    </article>
+      </section> -->
+      <div id="timeline_menu" style="position: sticky;">
+        <div class="time" >1864-1885<div class="t"><ul><li onmouseover="work(1)" onmouseout="hide(1)">1864-1870</li><li onmouseover="work(2)"onmouseout="hide(2)">1870-1880</li><li onmouseover="work(3)" onmouseout="hide(3)">1880-1885</li></ul></div></div>
+        <div class="time" >1886-1890<div class="t"><ul><li onmouseover="work(4)" onmouseout="hide(4)">1886-1887</li><li onmouseover="work(5)"onmouseout="hide(5)">1888-1890</li></ul></div></div>
+        <div class="time" >1891-1899<div class="t"><ul><li onmouseover="work(6)" onmouseout="hide(6)">1891-1892</li><li onmouseover="work(7)"onmouseout="hide(7)">1893-1895</li><li onmouseover="work(8)" onmouseout="hide(8)">1895-1897</li><li onmouseover="work(9)" onmouseout="hide(9)">1898-1899</li></ul></div></div>
+        <div class="time" >1900-1920<div class="t"><ul><li onmouseover="work(10)" onmouseout="hide(10)">1900-1903</li><li onmouseover="work(11)" onmouseout="hide(11)">1904-1907</li><li onmouseover="work(12)" onmouseout="hide(12)">1908-1912</li><li onmouseover="work(13)" onmouseout="hide(13)">1912-1920</li></ul></div></div>
+        <div class="time" >1920-1930<div class="t"><ul><li onmouseover="work(14)" onmouseout="hide(14)">1920-1925</li><li onmouseover="work(15)" onmouseout="hide(15)">1926-1930</li></ul></div></div></div>
+      </div>
+     <div id="work_box">
+      <h5 id="title" style="font-size: 90px;text-align: center;margin-top: 0%;margin-bottom: 10%;">WORKS</h5>
+      <p id="t1" style="display:none;">The Story of a Bengal Tiger</p>
+      <p id="t2" style="display:none;">The Judkin's Tragedy (The Wasp)<br>
+        The Haunted Grange of Goresthorpe<br>
+        The Mystery of Sasassa Valley.</p>
+      <p id="t3" style="display:none;" >A Night Among the Nihilists<br>
+        That Little Square Box<br>
+        The Gully of Bluemansdyke<br>
+        Bones, the April Fool of Harvey's Sluice<br>
+        Our Derby Sweepstakes<br>
+        That Veteran<br>
+        My Friend the Murderer.</p>
+      <p id="t4" style="display:none;">Touch and Go: A Midshipman's Story<br>
+        Cyprian Overbeck Wells<br>
+         A Literary Mosaic<br>
+        A Study in Scarlet in Beeton's Christmas Annual<br>
+        Uncle Jeremy's Household<br>
+        A Study in Scarlet<br>
+        The Stone of Boxman's Drift.</p>
+      <p id="t5"style="display:none;">
+        John Huxford's Hiatus<br>
+        The Mystery of Cloomber<br>
+        The Firm of Girdlestone<br>
+        The Surgeon of Gaster Fell<br>
+        Micah Clarke.</p>
+      <p id="t6" style="display:none;">Out of the Running <br>
+        The Adventure of the Blue Carbuncle<br>
+        The Adventure of the Speckled Band<br>
+        The Adventure of the Engineer's Thumb<br>
+        De Profundis,The Adventure of the Noble Bachelor.</p>
+      <p id="t7" style="display:none;">The Refugees<br>
+        The Adventure of the Cardboard Box<br>
+        The Adventure of the Yellow Face<br>
+        The Adventure of the Stockbroker's Clerk<br>
+        The Adventure of the Gloria Scott<br>
+        The Adventure of the Musgrave Ritual<br>
+        Jane Annie; or, The Good Conduct Prize<br>
+        The Adventure of the Reigate Squire </p>
+      <p id="t8" style="display:none;">The Stark Munro Letters<br>
+        The Recollections of Captain Wilkie <br>
+        How the Brigadier Held the King<br>
+        How the King Held the Brigadier <br>
+        How the Brigadier Slew the Brothers of Ajaccio<br>
+        How the Brigadier Came to the Castle of Gloom<br>
+        The Three Correspondents </p>
+      <p id="t9" style="display:none;">The New Catacomb<br>
+        The Confession<br>
+        The Story of the Beetle Hunter<br>
+        The Story of the Man with the Watches<br>
+        The King of the Foxes<br>
+        The Story of the Lost Special<br>
+        The Story of the Sealed Room<br>
+        The Story of the Black Doctor</p>
+      <p id="t10" style="display:none;">The Hound of the Baskervilles<br>
+        How Brigadier Gerard Lost His Ear<br>
+        The Leather Funnel<br>
+        How the Brigadier Saved the Army<br>
+        How the Brigadier Rode to Minsk <br>
+        The Adventure of the Dancing Men <br>
+         </p>
+      <p id="t11" style="display:none;">The Adventure of the Golden Pince-Nez <br>
+        The Adventure of the Missing Three-Quarter<br>
+        The Adventure of the Abbey Grange <br>
+        The Adventure of the Second Stain<br>
+        Sir Nigel </p>
+      <p id="t12" style="display:none;">The Pot of Caviare<br>
+        A Pot of Caviare<br>
+        The Silver Mirror<br>
+        The Fires of Fate <br>
+        The Lord of Falconbridge <br>
+        The House of Temperley <br>
+        The Home-Coming <br>
+        The Speckled Band: An Adventure of Sherlock Holmes<br> 
+        The Terror of Blue John Gap <br>
+        The Marriage of the Brigadier<br>
+        The Last Galley <br></p>
+      <p id="t13" style="display:none;">The Lost World<br>
+        The Fall of Lord Barrymore<br>
+        The Poison Belt<br>
+        How It Happened<br>
+        Borrowed Scenes<br>
+        The Adventure of the Dying Detective<br>
+        The Horror of the Heights<br>
+        Mrs. Thompson<br>
+        Dawnplay<br>
+        Danger!<br>
+        The Valley of Fear <br></p>
+      <p id="t14" style="display:none;">The Centurion <br>
+        Billy Bones <br>
+        The Adventure of the Creeping Man <br>
+        How Watson Learned the Trick <br>
+        The Adventure of the Sussex Vampire <br>
+        The Adventure of the Three Garridebs <br>
+        The Adventure of the Illustrious Client</p>
+      <p id="t15" style="display:none;">The Adventure of the Three Gables<br>
+        The Adventure of the Blanched Soldier<br>
+        The Adventure of the Lion's Mane<br>
+        The Adventure of the Retired Colourman<br>
+        The Adventure of the Veiled Lodger<br>
+        The Adventure of Shoscombe Old Place <br>
+      </p>
+     </div>
+     <footer class="foot">
+      Copyright &#169 2030. All rights reserved.
+    </footer>
   </body>
 </html>
